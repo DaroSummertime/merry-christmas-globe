@@ -126,14 +126,14 @@ function Texts() {
         <meshPhysicalMaterial metalness={0.2} roughness={0.2} color={'#a1a1a1'} />
       </Text3D>
       <Billboard>
-        <Text font="/DancingScript-VariableFont_wght.ttf" maxWidth={3.5} textAlign="center" position={[0, 12.45, 0]} fontSize="0.35" lineHeight={0.85}>
-          Wishing you happy and healthy. {'\n\n'}May your Christmas be blessed with lots of love, peace, and happiness.
+        <Text font="/DancingScript-VariableFont_wght.ttf" maxWidth={3.5} textAlign="center" position={[0, 12.45, 0]} fontSize="0.32" lineHeight={0.85}>
+        Wishing you a Christmas filled with happiness, health, and everything that makes you smile. {'\n\n'}You're the best Christmas gift I could ask for.
         </Text>
-        <Text maxWidth={2.5} textAlign="center" position={[0, 11.2, 0]} fillOpacity={0.6} fontSize="0.1">
+        <Text maxWidth={2.5} textAlign="center" position={[0, 11.2, 0]} fillOpacity={0.9} fontSize="0.1">
           Great things are coming in {new Date().getFullYear() + 1}. Please stay strong.
         </Text>
-        <Text maxWidth={1.5} textAlign="center" position={[0, 10.8, 0]} fontSize="0.08">
-          Santa Claus
+        <Text maxWidth={2.5} textAlign="center" position={[0, 11, 0]} fontSize="0.08">
+          From someone who thinks you're pretty special, Daro Summertime
         </Text>
       </Billboard>
     </>
